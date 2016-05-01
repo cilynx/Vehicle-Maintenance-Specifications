@@ -1,135 +1,191 @@
 {
-   "make": "Suzuki",
-   "model": "TL1000R",
-   "years": [1998,1999,2000,2001,2002,2003],
-   "maintenance": [
-      {
-	 "name": "Air Cleaner",
-	 "page": "2-3",
-	 "pdf": 22,
-	 "inspect": {
-	    "miles": 4000,
-	    "months": 6
-	 },
-	 "replace": {
-	    "miles": 11000,
-	    "months": 18
-	 }
-      },
-      {
-	 "name": "Spark Plugs",
-	 "page": "2-4",
-	 "pdf": 23,
-	 "inspect": {
-	    "miles": 4000,
-	    "months": 6
-	 },
-	 "replace": {
-	    "miles": 7500,
-	    "months": 12
-	 }
-      },
-      {
-	 "name": "Tappet Clearance",
-	 "page": "2-6",
-	 "pdf": 25,
-	 "inspect": {
-	    "miles": 15000,
-	    "months": 24
-	 }
-      },
-      {
-	 "name": "Fuel Hose",
-	 "page": "2-11",
-	 "pdf": 30,
-	 "inspect": {
-	    "miles": 4000,
-	    "months": 6
-	 },
-	 "replace": {
-	    "months": 48
-	 }
-      },
-      {
-	 "name": "Engine Oil and Filter",
-	 "page": "2-11",
-	 "pdf": 30,
-	 "replace": {
-	    "miles": 4000,
-	    "months": 6
-	 }
-      },
-      {
-	 "name": "Throttle Cable Play",
-	 "page": "2-13",
-	 "pdf": 32,
-	 "inspect": {
-	    "miles": 4000,
-	    "months": 6
-	 }
-      },
-      {
-	 "name": "Throttle Valve Synchronization",
-	 "page": "4-70",
-	 "inspect": {
-	    "miles": 7500,
-	    "months": 12
-	 }
-      },
-      {
-	 "name": "Evaporative Emission Control System (E-33 Only)",
-	 "page": "9-3",
-	 "inspect": {
-	    "miles": 7500,
-	    "months": 12
-	 },
-	 "replace": {
-	    "months": 48
-	 }
-      },
-      {
-	 "name": "PAIR (Air Supply) System (E-33 Only)",
-	 "page": "9-6",
-	 "inspect": {
-	    "miles": 7500,
-	    "months": 12
-	 }
-      },
-      {
-	 "name": "Clutch Hose",
-	 "page": "2-14",
-	 "pdf": 33,
-	 "inspect": {
-	    "miles": 4000,
-	    "months": 6
-	 },
-	 "replace": {
-	    "months": 48
-	 }
-      },
-      {
-	 "name": "Clutch Fluid",
-	 "page": "2-14",
-	 "pdf": 33,
-	 "inspect": {
-	    "miles": 4000,
-	    "months": 6
-	 },
-	 "replace": {
-	    "months": 24
-	 }
-      },
-      {
-	 "name": "Coolant",
-	 "page": "2-15",
-	 "pdf": 34,
-	 "inspect": {
-	    "miles": 4000,
-	    "months": 6
-	 },
-	 "replace": {
-	    "months": 24
-	 }
-      }
-   ] 
+  "canonical_vehicles_attributes": [
+    {
+      "make": "Suzuki",
+      "model": "TL1000R",
+      "year": 1998
+    },
+    {
+      "make": "Suzuki",
+      "model": "TL1000R",
+      "year": 1999
+    },
+    {
+      "make": "Suzuki",
+      "model": "TL1000R",
+      "year": 2000
+    },
+    {
+      "make": "Suzuki",
+      "model": "TL1000R",
+      "year": 2001
+    },
+    {
+      "make": "Suzuki",
+      "model": "TL1000R",
+      "year": 2002
+    },
+    {
+      "make": "Suzuki",
+      "model": "TL1000R",
+      "year": 2003
+    }
+  ],
+  "maintenances_attributes": [
+    {
+      "inspectMiles": 4000,
+      "inspectMonths": 6,
+      "item": "Air Cleaner",
+      "page": "2-3",
+      "pdf": 22,
+      "replaceMiles": 11000,
+      "replaceMonths": 18,
+      "steps_attributes": [
+        {
+          "seeAlso": [
+            "Front Seat"
+          ],
+          "text": "Remove the front seat"
+        },
+        {
+          "seeAlso": [
+            "Steering Damper"
+          ],
+          "text": "Remove the steering damper"
+        },
+        {
+          "seeAlso": [
+            "Fuel Tank"
+          ],
+          "text": "Lift and support the fuel tank"
+        },
+        {
+          "imageMD5": "dc3d644a68405b109df6909c64a7e253",
+          "text": "Remove the hoses (1) from the intake air control valve actuators"
+        },
+        {
+          "imageMD5": "dc3d644a68405b109df6909c64a7e253",
+          "text": "Remove the air cleaner box cap (2) by removing the screws"
+        },
+        {
+          "imageMD5": "33f4a572710ffb1a46f0c5fadf098a65",
+          "text": "Remove the air cleaner element (3) by removing the screws"
+        },
+        {
+          "imageMD5": "1e082e1d922d796d9ab0a061425b8702",
+          "text": "Drain water from the air cleaner by removing the drain plug"
+        },
+        {
+          "imageMD5": "6b8320be65d4853658a5be7853e6944f",
+          "text": "Carefully use air hose to blow the dust from cleaner element.  Always use air pressure on the throttle body side of the air cleaner element.  If air pressure is used on the other side, dirt will be forced into the pores of the air cleaner element thus restricting air flow through the air cleaner element."
+        },
+        {
+          "text": "Reinstall the cleaned or new air cleaner element in the reverse order of removal"
+        }
+      ]
+    },
+    {
+      "inspectMiles": 4000,
+      "inspectMonths": 6,
+      "item": "Spark Plugs",
+      "page": "2-4",
+      "pdf": 23,
+      "replaceMiles": 7500,
+      "replaceMonths": 12,
+      "steps_attributes": [
+      ]
+    },
+    {
+      "inspectMiles": 15000,
+      "inspectMonths": 24,
+      "item": "Tappet Clearance",
+      "page": "2-6",
+      "pdf": 25,
+      "steps_attributes": [
+      ]
+    },
+    {
+      "inspectMiles": 4000,
+      "inspectMonths": 6,
+      "item": "Fuel Hose",
+      "page": "2-11",
+      "pdf": 30,
+      "replaceMonths": 48,
+      "steps_attributes": [
+      ]
+    },
+    {
+      "item": "Engine Oil and Filter",
+      "page": "2-11",
+      "pdf": 30,
+      "replaceMiles": 4000,
+      "replaceMonths": 6,
+      "steps_attributes": [
+      ]
+    },
+    {
+      "inspectMiles": 4000,
+      "inspectMonths": 6,
+      "item": "Throttle Cable Play",
+      "page": "2-13",
+      "pdf": 32,
+      "steps_attributes": [
+      ]
+    },
+    {
+      "inspectMiles": 7500,
+      "inspectMonths": 12,
+      "item": "Throttle Valve Synchronization",
+      "page": "4-70",
+      "steps_attributes": [
+      ]
+    },
+    {
+      "inspectMiles": 7500,
+      "inspectMonths": 12,
+      "item": "Evaporative Emission Control System (E-33 Only)",
+      "page": "9-3",
+      "replaceMonths": 48,
+      "steps_attributes": [
+      ]
+    },
+    {
+      "inspectMiles": 7500,
+      "inspectMonths": 12,
+      "item": "PAIR (Air Supply) System (E-33 Only)",
+      "page": "9-6",
+      "steps_attributes": [
+      ]
+    },
+    {
+      "inspectMiles": 4000,
+      "inspectMonths": 6,
+      "item": "Clutch Hose",
+      "page": "2-14",
+      "pdf": 33,
+      "replaceMonths": 48,
+      "steps_attributes": [
+      ]
+    },
+    {
+      "inspectMiles": 4000,
+      "inspectMonths": 6,
+      "item": "Clutch Fluid",
+      "page": "2-14",
+      "pdf": 33,
+      "replaceMonths": 24,
+      "steps_attributes": [
+      ]
+    },
+    {
+      "inspectMiles": 4000,
+      "inspectMonths": 6,
+      "item": "Coolant",
+      "page": "2-15",
+      "pdf": 34,
+      "replaceMonths": 24,
+      "steps_attributes": [
+      ]
+    }
+  ]
 }
