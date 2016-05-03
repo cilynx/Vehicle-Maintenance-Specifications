@@ -186,6 +186,58 @@
       "replaceMonths": 24,
       "steps_attributes": [
       ]
+    },
+    {
+      "inspectMiles": 4000,
+      "inspectMonths": 6,
+      "item": "Tires",
+      "page": "2-22",
+      "pdf": 41,
+      "steps_attributes": [
+      ]
+    },
+    {
+      "inspectMiles": 7500,
+      "inspectMonths": 12,
+      "item": "Steering",
+      "page": "2-22",
+      "pdf": 41,
+      "steps_attributes": [
+      ]
+    },
+    {
+      "inspectMiles": 7500,
+      "inspectMonths": 12,
+      "item": "Front Fork",
+      "page": "6-13",
+      "steps_attributes": [
+      ]
+    },
+    {
+      "inspectMiles": 7500,
+      "inspectMonths": 12,
+      "item": "Rear Suspension",
+      "page": "6-40",
+      "steps_attributes": [
+      ]
+    },
+    {
+      "inspectMiles": 7500,
+      "inspectMonths": 12,
+      "item": "Exhaust Pipe Bolt",
+      "page": "2-23",
+      "pdf": 42,
+      "steps_attributes": [
+      ]
+    },
+    {
+      "inspectMiles": 4000,
+      "inspectMonths": 6,
+      "item": "Chassis Bolt and Nut",
+      "page": "2-24",
+      "pdf": 43,
+      "steps_attributes": [
+      ]
     }
   ]
 }
