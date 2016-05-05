@@ -93,6 +93,98 @@
       "replaceMiles": 7500,
       "replaceMonths": 12,
       "steps_attributes": [
+        {
+          "seeAlso": [
+            "Fairings"
+          ],
+          "text": "Remove the fairings"
+        },
+        {
+          "text": "Remove the horn (1)"
+        },
+        {
+          "text": "Remove the radiator mounting bolts"
+        },
+        {
+          "text": "Move the radiators (2) down.  Do not extract the radiator hoses."
+        },
+        {
+          "text": "Remove the front spark plug cap"
+        },
+        {
+          "text": "Remove the front spark plug with a spark plug wrench.  Be careful not to damage the radiator fins."
+        },
+        {
+          "seeAlso": [
+            "Front Seat"
+          ],
+          "text": "Remove the front seat"
+        },
+        {
+          "seeAlso": [
+            "Steering Damper"
+          ],
+          "text": "Remove the steering damper"
+        },
+        {
+          "seeAlso": [
+            "Fuel Tank"
+          ],
+          "text": "Lift and support the fuel tank"
+        },
+        {
+          "text": "Remove the rear spark plug cap"
+        },
+        {
+          "text": "Remove the rear spark plug with a spark plug wrench"
+        },
+        {
+          "data": {
+            "Colder Type": {
+              "DENSO": "U31ETR",
+              "NGK": "CR10EK"
+            },
+            "Hotter Type": {
+              "DENSO": "U24ETR",
+              "NGK": "CR8EK"
+            },
+            "Standard": {
+              "DENSO": "U27ETR",
+              "NGK": "CR9EK"
+            }
+          },
+          "text": "Check to see the heat range of the plug.  If the electrode of the plug is wet appearing or dark color, replace the plug with a hotter type one.  If it is white or glazed appearing, replace the plug with a colder type one."
+        },
+        {
+          "text": "Check to see if there are carbon deposits on the plugs.  If carbon is deposited, remove it with a spark plug cleaner machine or carefully using a tool with a pointed end"
+        },
+        {
+          "clearance": [
+            "0.6 mm",
+            "0.7 mm"
+          ],
+          "text": "Measure the plug gap with a thickness gauge.  If out of specification, adjust it to the following gap.",
+          "tools": [
+            {
+              "name": "Feeler Gauge",
+              "size": "0.6 mm"
+            },
+            {
+              "name": "Feeler Gauge",
+              "size": "0.7 mm"
+            }
+          ]
+        },
+        {
+          "text": "Check to see the worn or burnt condition of the electrodes.  If it is extremely worn or burnt, replace the plug.  And also replace the plug if it has a broken insulator, damaged thread.  Confirm the thread size and reach when replacing the plug.  If the reach is too short, carbon will be deposited on the screw portion of the plug hole and engine damage may result."
+        },
+        {
+          "text": "Install the spark plugs to the cylinder heads by finger tight, and then tighten them to the specified torque.",
+          "torque": "11 N.m (8.0 lb-ft)"
+        },
+        {
+          "text": "When fitting the spark plug caps, face the triangle marks on the water proof covers (A) to each cylinder exhaust side."
+        }
       ]
     },
     {
